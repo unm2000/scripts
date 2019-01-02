@@ -70,7 +70,7 @@ rm -rf jdk1.6.0_38
 
 cd /unm2000
 echo "Instalando o UNM2000, isso pode demorar um pouco, seja paciente!"
-./unm2000-1.0-linux-installer-20171122-202354.run --mode text --unattendedmodeui minimal --lang 1 --ipaddress $IP --dbserverip 127.0.0.1 --dbserverpwd $SENHA >> instalacao.log 2>&1
+./unm2000-1.0-linux-installer-20171122-202354.run --mode text --unattendedmodeui minimal --lang 1 --ipaddress $IP --dbserverip 127.0.0.1 --dbserverpwd $SENHA
 sleep 5
 
 echo "Criando base de dados..."
