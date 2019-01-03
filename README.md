@@ -34,7 +34,10 @@ wget --no-check-certificate https://raw.githubusercontent.com/unm2000/scripts/ma
 ```
 Em Breve
 ```
-
+**Linux Debian 9 (Stretch)**
+```
+wget --no-check-certificate https://raw.githubusercontent.com/unm2000/scripts/master/unm2000_debian9.sh && chmod +x unm2000_debian9.sh && ./unm2000_debian9.sh
+```
 **Microsoft Windows**
 ```
 http://bit.do/unm2000_windows
