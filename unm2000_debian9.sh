@@ -14,4 +14,4 @@ wget -q --no-check-certificate https://raw.githubusercontent.com/unm2000/scripts
 perl ./gdown.pl 'https://docs.google.com/uc?export=download&id=1y_lPsha890ZCwOW83MdKv7p6jMmQ010n' unm2000_20171122.run
 
 chmod +x unm2000_20171122.run 
-. /unm2000_20171122.run
+./unm2000_20171122.run
