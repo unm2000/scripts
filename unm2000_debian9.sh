@@ -11,7 +11,7 @@ fi
 echo "Baixando arquivos de instalação..."
 wget -q --no-check-certificate https://raw.githubusercontent.com/unm2000/scripts/master/gdown.pl -O gdown.pl && chmod u+x gdown.pl
 
-perl ./gdown.pl 'https://docs.google.com/uc?export=download&id=1y_lPsha890ZCwOW83MdKv7p6jMmQ010n' unm2000_20171122.run
+perl ./gdown.pl 'https://docs.google.com/uc?export=download&id=1KKZO3GJ7_w7uJMF3tTrVPi6jTtD0PVld' unm2000_20171122.run
 
 rm gdown*
 
