@@ -27,7 +27,7 @@ Para utilizar, basta copiar e colcar o código abaixo no prompt de comando do se
 
 **Linux OpenSuse 11.3**
 ```
-wget --no-check-certificate https://raw.githubusercontent.com/unm2000/scripts/master/unm2000_opensuse_11.3.sh && chmod +x unm2000_opensuse_11.3.sh && ./unm2000_opensuse_11.3.sh
+wget --no-check-certificate https://raw.githubusercontent.com/unm2000/scripts/master/unm2000_OpenSuse11_3.sh && chmod +x unm2000_OpenSuse11_3.sh && ./unm2000_OpenSuse11_3.sh
 ```
 
 **Linux OpenSuse Leap 15**
