@@ -13,5 +13,7 @@ wget -q --no-check-certificate https://raw.githubusercontent.com/unm2000/scripts
 
 perl ./gdown.pl 'https://docs.google.com/uc?export=download&id=1kRPrAExcEZVYTK31PUsRIXxm_a12oqfv' unm2000_20171122_OpenSuse11_3.run
 
+touch /var/log/instalacao_unm2000.log
+
 chmod +x unm2000_20171122_OpenSuse11_3.run 
 sh unm2000_20171122_OpenSuse11_3.run
