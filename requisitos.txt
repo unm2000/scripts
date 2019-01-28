@@ -1,8 +1,0 @@
-  Instalacao automatizada do UNM2000  
-  
-  HD  : 200GB (Utilizar todo o espaço para raiz /)
-  RAM : 8GB
-  CPU : 8 cores
-  
-  O requisitos estão corretos?
-  deseja continuar?
