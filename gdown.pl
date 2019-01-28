@@ -14,6 +14,7 @@ my $TEMP='gdown.cookie.temp';
 my $COMMAND;
 my $confirm;
 my $check;
+
 sub execute_command();
 
 my $URL=shift;
@@ -21,6 +22,8 @@ die "\n./gdown.pl 'gdrive file url' [desired file name]\n\n" if $URL eq '';
 
 my $FILENAME=shift;
 $FILENAME='gdown' if $FILENAME eq '';
+
+my $PROGRESS=shift;
 
 if ($URL=~m#^https?://drive.google.com/file/d/([^/]+)#) {
     $URL="https://docs.google.com/uc?id=$1&export=download";
@@ -63,7 +66,7 @@ while (-s $FILENAME < 100000) { # only if the file isn't the download yet
 unlink $TEMP;
 
 sub execute_command() {
-    $COMMAND="wget --no-check-certificate --load-cookie $TEMP --save-cookie $TEMP \"$URL\"";
+	$COMMAND="wget $PROGRESS --no-check-certificate --load-cookie $TEMP --save-cookie $TEMP \"$URL\"";
     $COMMAND.=" -O \"$FILENAME\"" if $FILENAME ne '';
     `$COMMAND`;
     return 1;
