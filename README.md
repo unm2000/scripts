@@ -20,7 +20,7 @@ Tenho licenças para vender, caso precise de licença do UNM2000 basta entrar em
 
 Gostou? entre em contato: **(11) 9.9509-0722 (WhatsApp)**
 
-<br/><br/><br/><br/><br/>
+<br/><br/><br/>
 
 ## O Script
 Para utilizar, basta copiar e colcar o código abaixo no prompt de comando do seu sistema operacional!<br/><br/>
@@ -31,7 +31,7 @@ Para utilizar, basta copiar e colcar o código abaixo no prompt de comando do se
 ```
 wget --no-check-certificate https://raw.githubusercontent.com/unm2000/scripts/master/unm2000_opensuse.sh && chmod +x unm2000_opensuse.sh && ./unm2000_opensuse.sh
 ```
-
+<br><br>
 **Linux Debian**<br>
 **Debian 7 ( wheezy )**<br>
 **Debian 8 ( jessie )**<br>
