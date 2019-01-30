@@ -25,18 +25,19 @@ Gostou? entre em contato: **(11) 9.9509-0722 (WhatsApp)**
 ## O Script
 Para utilizar, basta copiar e colcar o código abaixo no prompt de comando do seu sistema operacional!<br/><br/>
 
-**Linux OpenSuse 11.3**
+**Linux OpenSuse**
+**OpenSuse 11.3**
+**OpenSuse Leap 15**
 ```
-wget --no-check-certificate https://raw.githubusercontent.com/unm2000/scripts/master/unm2000_OpenSuse11_3.sh && chmod +x unm2000_OpenSuse11_3.sh && ./unm2000_OpenSuse11_3.sh
+wget --no-check-certificate https://raw.githubusercontent.com/unm2000/scripts/master/unm2000_opensuse.sh && chmod +x unm2000_opensuse.sh && ./unm2000_opensuse.sh
 ```
 
-**Linux OpenSuse Leap 15**
+**Linux Debian**
+**Debian 7 ( wheezy )**
+**Debian 8 ( jessie )**
+**Debian 9 ( stretch )**
 ```
-Em Breve
-```
-**Linux Debian 9 (Stretch)**
-```
-wget --no-check-certificate https://raw.githubusercontent.com/unm2000/scripts/master/unm2000_debian9.sh && chmod +x unm2000_debian9.sh && ./unm2000_debian9.sh
+wget --no-check-certificate https://raw.githubusercontent.com/unm2000/scripts/master/unm2000_debian.sh && chmod +x unm2000_debian.sh && ./unm2000_debian.sh
 ```
 **Microsoft Windows**
 ```
