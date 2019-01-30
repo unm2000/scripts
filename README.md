@@ -26,16 +26,16 @@ Gostou? entre em contato: **(11) 9.9509-0722 (WhatsApp)**
 Para utilizar, basta copiar e colcar o código abaixo no prompt de comando do seu sistema operacional!<br/><br/>
 
 **Linux OpenSuse**<br>
-**OpenSuse 11.3**<br>
-**OpenSuse Leap 15**<br>
+OpenSuse 11.3<br>
+OpenSuse Leap 15<br>
 ```
 wget --no-check-certificate https://raw.githubusercontent.com/unm2000/scripts/master/unm2000_opensuse.sh && chmod +x unm2000_opensuse.sh && ./unm2000_opensuse.sh
 ```
 <br><br>
 **Linux Debian**<br>
-**Debian 7 ( wheezy )**<br>
-**Debian 8 ( jessie )**<br>
-**Debian 9 ( stretch )**<br>
+Debian 7 ( wheezy )<br>
+Debian 8 ( jessie )<br>
+Debian 9 ( stretch )<br>
 ```
 wget --no-check-certificate https://raw.githubusercontent.com/unm2000/scripts/master/unm2000_debian.sh && chmod +x unm2000_debian.sh && ./unm2000_debian.sh
 ```
