@@ -14,7 +14,7 @@ fi
 
 dir=$PWD
 
-echo "  ********** SCRIPT EXCLUSIVO INTNET **********"              > licencas.txt
+echo "  ********** SCRIPT EXCLUSIVO  **********"              > licencas.txt
 echo ""                                                            >> licencas.txt
 echo "  Meu nome é Dema, sou especialista em UNM2000"              >> licencas.txt
 echo "  Precisando comprar licenca do UNM2000?"                    >> licencas.txt
@@ -249,7 +249,7 @@ arquivos_md5=("baf36337872b3887c3a969f15f4cd838" "ab866939770963ccb70187ac2a3725
 	MontaProgresso
 	{
 		echo "30"
-		apt-get install mysql-server  -y --no-install-recommends -o APT::Install-Suggests=0 -o APT::Install-Recommends=0 >> /var/log/instalacao_unm2000.log 2>&1		
+		#apt-get install mysql-server  -y --no-install-recommends -o APT::Install-Suggests=0 -o APT::Install-Recommends=0 >> /var/log/instalacao_unm2000.log 2>&1		
 		cp 60-unm2000.cnf /etc/mysql/mariadb.conf.d/
 		service mysql restart >> /var/log/instalacao_unm2000.log 2>&1
 		sleep 3
